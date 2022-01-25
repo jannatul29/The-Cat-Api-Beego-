@@ -421,6 +421,10 @@
       order = value
       window.location='http://localhost:8080/cat?order=' + order;
     }
+    function page(value){
+      pg = value
+      window.location='http://localhost:8080/cat?page=' + pg;
+    }
     </script>
     </body>
 </html>

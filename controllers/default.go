@@ -204,6 +204,7 @@ func (c *CatController) Get() {
 	req.Param("mime_types", mime)
 	req.Param("order", order)
 	req.Param("category_ids", category)
+	//resp, err := req.Response()
 	resp, err := req.Response()
 	if err != nil {
 		log.Fatal(err)
@@ -225,6 +226,10 @@ func (c *CatController) Get() {
 	for i := 0; i < len(F); i++ {
 		fmt.Println(F[i].Url)
 	}
+
+	c.Data["Website"] = "beego.me"
+	c.Data["Email"] = "astaxie@gmail.com"
+	c.Data["Img"] = F[0].Url
 	c.Data["F"] = &F
 	c.TplName = "index.tpl"
 }
