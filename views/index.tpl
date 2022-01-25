@@ -226,19 +226,17 @@
                         </div>
                         <br>
                         <div class="row no-gutters">
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-lg-8 col-md-6">
                                 <label>Per Page</label><br>
                                 <select onchange="page(this.value);" id="page" style="width:150px;">
                                     <option value="9">9</option>
                                     <option value="18">18</option>
                                     <option value="80" >80</option>
                                  </select>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <br>
-                                <button type="button" class="btn btn-primary">MORE</button>
+                                 <button type="button" class="btn btn-primary">MORE</button>
                             </div>
                         </div>
+                        <br>
                     </div>
                 </div>
             </div>
