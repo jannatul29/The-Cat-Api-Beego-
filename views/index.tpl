@@ -229,10 +229,9 @@
                             <div class="col-lg-6 col-md-6">
                                 <label>Per Page</label><br>
                                 <select onchange="page(this.value);" id="page" style="width:150px;">
-                                    <option value="" >None</option>
-                                       <option value="1">1</option>
-                                       <option value="2">2</option>
-                                     <option value="3" >2</option>
+                                    <option value="9">9</option>
+                                    <option value="18">18</option>
+                                    <option value="80" >80</option>
                                  </select>
                             </div>
                             <div class="col-lg-6 col-md-6">

@@ -204,7 +204,6 @@ func (c *CatController) Get() {
 	req.Param("mime_types", mime)
 	req.Param("order", order)
 	req.Param("category_ids", category)
-	//resp, err := req.Response()
 	resp, err := req.Response()
 	if err != nil {
 		log.Fatal(err)
